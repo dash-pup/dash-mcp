@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.dash-pup/dash-mcp",
+  "title": "Dash",
+  "description": "Connect AI clients to Dash, the AI teammate you can text or email, plus your workspace and its apps.",
+  "version": "1.0.0",
+  "websiteUrl": "https://dashpup.ai/help/use-dash-as-an-mcp-server/",
+  "repository": {
+    "url": "https://github.com/dash-pup/dash-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.dashpup.ai/mcp/platform"
+    }
+  ]
+}
